@@ -1,6 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import "./App.css";
-import Example from "./Example";
+
 
 function App() {
   const [length, setLength] = useState(8);
@@ -88,7 +88,6 @@ function App() {
 
         </div>
       </div>
-      <Example/>
     </>
   );
 }
